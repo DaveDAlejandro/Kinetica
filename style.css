@@ -1,0 +1,82 @@
+/* Ajuste para navbar fija */
+body {
+    padding-top: 50px;
+}
+
+/* Hero */
+.hero-section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+/* Todas las secciones */
+section {
+    padding: 100px 0;
+}
+
+/* Carrusel */
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+
+.navbar {
+
+    background-color: rgb(36, 39, 26);
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: white !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: grey !important;
+}
+
+.container{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/* Desplazamiento suave al hacer clic en el menú */
+html {
+    scroll-behavior: smooth;
+}
+
+#servicios {
+    background-color: rgb(72, 60, 31);
+    color: white;
+}
+
+#nosotros {
+    background-color: #F8F9FA;
+    color: #212529;
+}
+
+#galeria {
+    background-color: #E9ECEF;
+    color: #212529;
+}
+
+#contacto {
+    background-color: rgb(72, 60, 31);
+    color: white;
+}
+
+/* Galería */
+#carouselGaleria img {
+    height: 600px;
+    object-fit: cover;
+}
+
+#carouselGaleria img {
+    height: 600px;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    #carouselGaleria img {
+        height: 300px;
+    }
+}
