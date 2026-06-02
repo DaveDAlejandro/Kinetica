@@ -1,0 +1,2 @@
+# Kinetica
+Landing Page Kinetica
